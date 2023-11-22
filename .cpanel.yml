@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+  - export DEPLOYPATH=/home/ashj2916/public_html/panel
+  - /bin/cp -r * $DEPLOYPATH
