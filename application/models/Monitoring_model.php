@@ -20,8 +20,8 @@ class Monitoring_model extends CI_Model
     }
 
     // start datatables
-    var $column_order = array('id_monitoring', 'account_number', 'ea_name', 'ea_symbols', 'account_balance', 'account_equity', 'total_order', 'floating', 'drawdown', 'drawdown_percent', 'today_profit', 'total_profit', 'daily_profit', 'daily_percentage', 'daily_romad', 'account_location'); //set column field database for datatable orderable
-    var $column_search = array('id_monitoring', 'account_number', 'ea_name', 'ea_symbols', 'account_balance', 'account_equity', 'total_order', 'floating', 'drawdown', 'drawdown_percent', 'today_profit', 'total_profit', 'daily_profit', 'daily_percentage', 'daily_romad', 'account_location'); //set column field database for datatable searchable
+    var $column_order = array('id_monitoring', 'account_number', 'ea_name', 'ea_symbols', 'account_balance', 'account_equity', 'total_order', 'floating', 'drawdown', 'drawdown_percent', 'today_profit', 'total_profit', 'daily_profit', 'daily_percentage', 'daily_romad', 'account_location', 'any_details'); //set column field database for datatable orderable
+    var $column_search = array('id_monitoring', 'account_number', 'ea_name', 'ea_symbols', 'account_balance', 'account_equity', 'total_order', 'floating', 'drawdown', 'drawdown_percent', 'today_profit', 'total_profit', 'daily_profit', 'daily_percentage', 'daily_romad', 'account_location', 'any_details'); //set column field database for datatable searchable
     var $order = array('account_number' => 'asc'); // default order 
 
     private function _get_datatables_query()

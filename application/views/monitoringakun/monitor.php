@@ -35,6 +35,7 @@
                                             <th>Daily Profit %</th>
                                             <th>Daily Romad</th>
                                             <th>IP VPS</th>
+                                            <th>Keterangan</th>
                                         </tr>
                                     </thead>
                                     <tbody>

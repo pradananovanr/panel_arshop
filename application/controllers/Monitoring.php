@@ -36,6 +36,7 @@ class Monitoring extends CI_Controller
 			$row[] = $item->daily_percentage;
 			$row[] = $item->daily_romad;
 			$row[] = $item->account_location;
+			$row[] = $item->any_details;
 			// add html for action
 			//$row[] = '<div class="form-button-action"><a href="'.site_url('monitoring/details/').$item->id_monitoring.'" title="More Details" class="btn btn-link btn-lg"><i class="fa fa-info"></i></a></div>';
 			$data[] = $row;
