@@ -56,6 +56,7 @@
                 serverSide: false,
                 processing: false,
                 scrollX: true,
+                nowrap: true,
                 ajax: {
                     "url": "<?= site_url('monitoring/get_ajax_monitoring') ?>",
                     "type": "POST"
@@ -64,7 +65,7 @@
                     "processing": "Refreshing Data...",
                 },
                 columnDefs: [{
-                    "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                    "targets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
                     "className": "text-center"
                 }]
             });
