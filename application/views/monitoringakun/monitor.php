@@ -34,6 +34,7 @@
                                             <th>Daily Profit $</th>
                                             <th>Daily Profit %</th>
                                             <th>Daily Romad</th>
+                                            <th>IP VPS</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -54,6 +55,7 @@
             $('#datatables').DataTable({
                 serverSide: false,
                 processing: false,
+                scrollX: true,
                 ajax: {
                     "url": "<?= site_url('monitoring/get_ajax_monitoring') ?>",
                     "type": "POST"
