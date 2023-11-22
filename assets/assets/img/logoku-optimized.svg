@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generator: Gravit.io -->
+<svg width="101" height="30" style="isolation:isolate" version="1.1" viewBox="0 0 101 30" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="translate(-1.2223)">
+  <path transform="matrix(.9985 -.15559 .13543 1.0077 -.89692 3.399)" d="m23.77 22.433-7.4365-2.6033-6.3604 4.6501 0.17793-7.877-6.388-4.6121 7.5464-2.2649 2.4124-7.5006 4.486 6.4772 7.8789-0.023459-4.7739 6.268z" fill="#fff"/>
+  <text transform="scale(.86101 1.1614)" x="29.367443" y="18.665854" fill="#ffffff" font-family="sans-serif" font-size="65.392px" letter-spacing="0px" stroke-width="1.6348" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="29.367443" y="18.665854" fill="#ffffff" font-family="'Eras Bold ITC'" font-size="18.667px" stroke-width="1.6348">myRobot</tspan></text>
+ </g>
+</svg>
